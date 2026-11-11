@@ -21,7 +21,7 @@ Requires iOS 16.2+. In Xcode, choose **File › Add Package Dependencies…** an
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/syjdev/PixelBlurDetector-iOS.git", from: "3.0.0"),
+    .package(url: "https://github.com/syjdev/PixelBlurDetector-iOS.git", from: "3.0.1"),
 ],
 targets: [
     .target(name: "YourApp", dependencies: [
