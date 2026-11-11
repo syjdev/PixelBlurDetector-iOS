@@ -11,6 +11,9 @@ has the overview, sample results and the demo apps. The Android SDK, which produ
 results, is [PixelBlurDetector-Android](https://github.com/syjdev/PixelBlurDetector-Android).
 Please open issues in the [main repository](https://github.com/syjdev/PixelBlurDetector/issues).
 
+For accuracy and model size compared with published defocus blur detectors, see
+[Benchmarks](https://github.com/syjdev/PixelBlurDetector#benchmarks).
+
 ## Installation
 
 Requires iOS 16.2+. In Xcode, choose **File › Add Package Dependencies…** and enter
@@ -86,7 +89,7 @@ nothing else to upload.
 ## License
 
 - **Code**: Apache-2.0. See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
-- **`BlurSegmentation.mlpackage`**: trained on the CUHK and DUT-DBD datasets, neither of which
+- **`BlurSegmentation.mlpackage`**: trained on the CUHK, DUT-DBD and EBD datasets, none of which
   states a license, so it is **research / non-commercial only** for now. See
   [`MODEL_LICENSE.md`](MODEL_LICENSE.md).
 - **Test images** (`cc0_*`): CC0 (public domain) from Wikimedia Commons:

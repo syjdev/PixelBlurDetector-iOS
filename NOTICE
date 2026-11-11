@@ -13,8 +13,8 @@ Bundled machine-learning model — SEPARATE TERMS
 The Core ML model bundled in this repository
 (Sources/PixelBlurDetectorKit/BlurSegmentation.mlpackage)
 is NOT covered by the Apache-2.0 license above. It was trained on the
-CUHK Blur Detection Dataset (CVPR 2014) and the DUT-DBD Dataset
-(CVPR 2018), and is distributed under separate, more restrictive
-(non-commercial) terms.
+CUHK Blur Detection Dataset (CVPR 2014), the DUT-DBD Dataset (CVPR 2018)
+and the EBD Dataset (ICME 2023), and is distributed under separate, more
+restrictive (non-commercial) terms.
 
 See MODEL_LICENSE.md before using, redistributing, or embedding the model.
